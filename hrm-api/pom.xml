@@ -7,23 +7,25 @@
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 	<groupId>com.aouffen.hrm</groupId>
-	<artifactId>hrm-business</artifactId>
-	<packaging>jar</packaging>
-	<name>Hrm Business Module</name>
+	<artifactId>hrm-api</artifactId>
+	<packaging>war</packaging>
+	<name>Hrm API Module</name>
 	<dependencies>
+		<!-- external dependencies -->
 		<dependency>
 			<groupId>javax</groupId>
 			<artifactId>javaee-api</artifactId>
 		</dependency>
-
 		<dependency>
-			<groupId>com.aouffen.hrm</groupId>
-			<artifactId>hrm-persistence</artifactId>
+			<groupId>org.jboss.resteasy</groupId>
+			<artifactId>resteasy-jaxrs</artifactId>
+			<version>3.6.2.Final</version>
 		</dependency>
 
+		<!-- Internal dependencies -->
 		<dependency>
 			<groupId>com.aouffen.hrm</groupId>
-			<artifactId>hrm-transverse</artifactId>
+			<artifactId>hrm-business</artifactId>
 		</dependency>
 	</dependencies>
 </project>
