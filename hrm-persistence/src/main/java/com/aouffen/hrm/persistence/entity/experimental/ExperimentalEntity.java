@@ -1,19 +1,45 @@
 package com.aouffen.hrm.persistence.entity.experimental;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Experimental")
 public class ExperimentalEntity {
-	private String somthing;
+	@Id
+	@GeneratedValue
+	private int id;
+	private String something;
 
-	public String getSomthing() {
-		return somthing;
+	
+	
+	public int getId() {
+		return id;
 	}
 
-	public void setSomthing(String somthing) {
-		this.somthing = somthing;
+	public void setId(int id) {
+		this.id = id;
 	}
 
-	public ExperimentalEntity(String somthing) {
+	public String getSomething() {
+		return something;
+	}
+
+	public void setSomething(String something) {
+		this.something = something;
+	}
+
+	
+	
+	public ExperimentalEntity() {
 		super();
-		this.somthing = somthing;
+	}
+	
+	public ExperimentalEntity(String something) {
+		super();
+		this.something = something;
 	}
 	
 	

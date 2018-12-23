@@ -13,7 +13,7 @@ public class ExperimentalService {
 	ExperimentalDao experimentalDao;
 
 	public Experimental getExperimental() {
-		return new Experimental(experimentalDao.getExperimental().getSomthing());
+		return new Experimental(experimentalDao.getExperimental().getSomething());
 	}
 
 }
