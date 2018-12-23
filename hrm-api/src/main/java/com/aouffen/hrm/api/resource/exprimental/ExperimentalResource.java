@@ -13,9 +13,9 @@ import com.aouffen.hrm.service.experimental.ExperimentalService;
 public class ExperimentalResource {
 	@Inject
 	ExperimentalService experimentalService;
-	@Path("/")
 	@GET
 	@Produces(MediaType.TEXT_PLAIN)
+	@Path("/get")
 	public Response getSomething() {
 		return Response.ok().entity(experimentalService.getExperimental().getSomething()).build();
 	}

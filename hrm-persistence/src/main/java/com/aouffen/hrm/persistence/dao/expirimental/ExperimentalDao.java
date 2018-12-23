@@ -1,10 +1,10 @@
 package com.aouffen.hrm.persistence.dao.expirimental;
 
-import javax.ejb.Stateless;
+import javax.inject.Named;
 
 import com.aouffen.hrm.persistence.entity.experimental.ExperimentalEntity;
 
-@Stateless
+@Named("ExperimentalDao")
 public class ExperimentalDao {
 	public ExperimentalEntity getExperimental(){
 		return new ExperimentalEntity("This is an experimental string");
