@@ -8,7 +8,7 @@
 	</parent>
 	<groupId>com.aouffen.hrm</groupId>
 	<artifactId>hrm-business</artifactId>
-	<packaging>jar</packaging>
+	<packaging>ejb</packaging>
 	<name>Hrm Business Module</name>
 	<dependencies>
 		<dependency>

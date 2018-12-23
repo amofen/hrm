@@ -1,6 +1,5 @@
 package com.aouffen.hrm.api.resource.exprimental;
 
-import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -10,8 +9,7 @@ import javax.ws.rs.core.Response;
 
 import com.aouffen.hrm.service.experimental.ExperimentalService;
 
-@Path("/experimental")
-@Stateless
+@Path("/exp_resource")
 public class ExperimentalResource {
 	@Inject
 	ExperimentalService experimentalService;

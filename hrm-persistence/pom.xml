@@ -8,7 +8,7 @@
 	</parent>
 	<groupId>com.aouffen.hrm</groupId>
 	<artifactId>hrm-persistence</artifactId>
-	<packaging>jar</packaging>
+	<packaging>ejb</packaging>
 	<name>Hrm Persistence Module</name>
 	<dependencies>
 		<dependency>
