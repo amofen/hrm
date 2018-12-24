@@ -7,7 +7,23 @@
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 	<groupId>com.aouffen.hrm</groupId>
-	<artifactId>hrm-transverse</artifactId>
+	<artifactId>hrm-logic</artifactId>
 	<packaging>jar</packaging>
-	<name>Hrm Transverse Module</name>
+	<name>Hrm Logic Module</name>
+	<dependencies>
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.aouffen.hrm</groupId>
+			<artifactId>hrm-dataaccess</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.aouffen.hrm</groupId>
+			<artifactId>hrm-common</artifactId>
+		</dependency>
+	</dependencies>
 </project>

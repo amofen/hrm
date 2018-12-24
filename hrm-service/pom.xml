@@ -8,9 +8,9 @@
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 	<groupId>com.aouffen.hrm</groupId>
-	<artifactId>hrm-api</artifactId>
+	<artifactId>hrm-service</artifactId>
 	<packaging>war</packaging>
-	<name>Hrm API Module</name>
+	<name>Hrm Service Module</name>
 	<dependencies>
 		<!-- external dependencies -->
 		<dependency>
@@ -20,7 +20,7 @@
 		<!-- Internal dependencies -->
 		<dependency>
 			<groupId>com.aouffen.hrm</groupId>
-			<artifactId>hrm-business</artifactId>
+			<artifactId>hrm-logic</artifactId>
 		</dependency>
 	</dependencies>
 	<build>
