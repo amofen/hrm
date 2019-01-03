@@ -15,12 +15,6 @@
 			<groupId>javax</groupId>
 			<artifactId>javaee-api</artifactId>
 		</dependency>
-
-		<dependency>
-			<groupId>com.aouffen.hrm</groupId>
-			<artifactId>hrm-dataaccess</artifactId>
-		</dependency>
-
 		<dependency>
 			<groupId>com.aouffen.hrm</groupId>
 			<artifactId>hrm-common</artifactId>
