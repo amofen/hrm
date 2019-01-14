@@ -3,6 +3,7 @@ package com.aouffen.hrm.employee.api;
 import java.util.Date;
 
 public class Employee implements IEmployee{
+	private long id;
 	private String code;
 	private String firstName;
 	private String lastName;
@@ -14,6 +15,20 @@ public class Employee implements IEmployee{
 	public Employee() {
 		super();
 	}
+
+	
+	
+	public long getId() {
+		return id;
+	}
+
+
+
+	public void setId(long id) {
+		this.id = id;
+	}
+
+
 
 	public String getCode() {
 		return code;
